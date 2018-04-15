@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity
 
         //banner
         viewFlipper = (ViewFlipper) findViewById(R.id.viewflipperevents);
-        int images [] = {R.drawable.slider_1,R.drawable.slider_2,R.drawable.slider_3};
+        int images [] = {R.drawable.slider1,R.drawable.slider2,R.drawable.slider3};
 
         viewFlipper = findViewById(R.id.viewflipperevents);
 
@@ -74,10 +74,10 @@ public class MainActivity extends AppCompatActivity
 
         List items = new ArrayList();
 
-        items.add(new Evento("Dia del Skate","21/06/18","Discoteca TUSAN",R.drawable.slider_1));
-        items.add(new Evento("Evento Surf Tour Sur","21/06/18","Playa los Hornos",R.drawable.slider_2));
+        items.add(new Evento("Curso basico Mikrotik - Tacna","28/04/18","DM Hoteles Tacna",R.drawable.evento_1));
+        items.add(new Evento("Welcome Cachimbo 2018 - Sab 19 Casa Embrujada","19/04/18","CASA EMBRUJADA ( Frente al Ceid )",R.drawable.evento_2));
+        items.add(new Evento("Reynas - Teatro Por La No Violencia A La Mujer","28/04/18","Casa Laramamango",R.drawable.evento_3));
         items.add(new Evento("Peru Mucho Gusto","21/06/18","Hotel Tacna",R.drawable.slider_3));
-        items.add(new Evento("Dia del Skate","21/06/18","Discoteca TUSAN",R.drawable.slider_1));
         items.add(new Evento("Dia del Skate","21/06/18","Discoteca TUSAN",R.drawable.slider_2));
         items.add(new Evento("Dia del Skate","21/06/18","Discoteca TUSAN",R.drawable.slider_3));
 
@@ -152,7 +152,6 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_share) {
 

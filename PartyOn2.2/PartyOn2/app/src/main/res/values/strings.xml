@@ -26,5 +26,9 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_evento_informacion">CYSM - Los Conquistadores De La Salsa</string>
+    <string name="large_text">
+        "Como te gusta conquistadores y su timba!!! llego Robert armas y los conquistadores de la salsaaaa!! a romperla en la casa de la salsa tacneña conchas y sus mares!!! por que te veo fururu farara!! ademas arranco nuestra temporada 2018 disfruta de los mejor junto a la animacion de locura de nuestro amigo charly p y el team conchero, las mas lindas anfitrionas, ademas de los mejores temas para bailar hasta sacar chispas!! y ahora baila mueve tu cintura pero muevela con sabrosuraaaa !!! entradas con promotores autorizados !! #porqueelconchaseselconchas"  </string>
+    <string name="action_settings">Settings</string>
 
 </resources>
