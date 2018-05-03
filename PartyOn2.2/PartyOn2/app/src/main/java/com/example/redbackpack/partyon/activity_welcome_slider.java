@@ -118,6 +118,7 @@ public class activity_welcome_slider extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
+        //manda a la actividad principal (menu principal)
         startActivity(new Intent(activity_welcome_slider.this, MainActivity.class));
         finish();
     }

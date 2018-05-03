@@ -150,12 +150,16 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_publica_evento) {
             // Handle the camera action
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_mis_eventos) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_eventos_mapa) {
+
+        } else if (id == R.id.nav_compartir) {
+
+        } else if (id == R.id.nav_conctactanos) {
 
         }
 

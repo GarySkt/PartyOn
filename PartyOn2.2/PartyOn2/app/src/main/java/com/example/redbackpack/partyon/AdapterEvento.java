@@ -14,6 +14,7 @@ public class AdapterEvento extends RecyclerView.Adapter<AdapterEvento.EventoView
 
     private List<Evento> items;
 
+
     public static class EventoViewHolder extends RecyclerView.ViewHolder{
 
         public ImageView imagenevento;
@@ -24,12 +25,12 @@ public class AdapterEvento extends RecyclerView.Adapter<AdapterEvento.EventoView
         public EventoViewHolder(View v){
             super(v);
 
+
             imagenevento = (ImageView)v.findViewById(R.id.imagenevento);
             nombreevento = (TextView)v.findViewById(R.id.nombre_evento);
             fechaevento = (TextView)v.findViewById(R.id.fecha_evento);
             lugarevento = (TextView)v.findViewById(R.id.lugarevento);
         }
-
     }
 
     public AdapterEvento(List<Evento> items){

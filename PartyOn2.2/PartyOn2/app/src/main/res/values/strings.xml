@@ -7,9 +7,9 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_register">Registro</string>
 
-    <string name="next">NEXT</string>
-    <string name="skip">SKIP</string>
-    <string name="start">GOT IT</string>
+    <string name="next">Siguiente</string>
+    <string name="skip">Saltar</string>
+    <string name="start">Empezar</string>
 
     <string name="slide_1_title">Bienvenido</string>
     <string name="slide_1_desc">Encuentra todo tipo de eventos que se encuentren a tu alrededor.</string>
