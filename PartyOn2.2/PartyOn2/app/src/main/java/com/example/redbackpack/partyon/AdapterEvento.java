@@ -39,6 +39,7 @@ public class AdapterEvento extends RecyclerView.Adapter<AdapterEvento.EventoView
 
     @Override
     public int getItemCount(){
+
         return items.size();
     }
 
